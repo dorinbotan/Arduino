@@ -44,8 +44,6 @@ void loop() {
     UsbKeyboard.sendKeyStroke(KEY_ENTER);  
     delay(15000);
     UsbKeyboard.sendKeyStroke(KEY_S);
-    UsbKeyboard.sendKeyStroke(KEY_E);
-    UsbKeyboard.sendKeyStroke(KEY_X);
     UsbKeyboard.sendKeyStroke(KEY_DOT);
     UsbKeyboard.sendKeyStroke(KEY_C);
     UsbKeyboard.sendKeyStroke(KEY_O);
