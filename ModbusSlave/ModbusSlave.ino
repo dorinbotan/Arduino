@@ -42,6 +42,10 @@ void loop()
     // Frame received
     if(my_delay > 500) // (~190 delay between bytes, ~112k = ~100ms)
     {
+      // TODO: Check CRC
+      // TODO: Check addr
+      // TODO: Process instruction
+      
       processFrame(input_buffer, buffer_size);
       
       my_delay = 0;
